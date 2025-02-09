@@ -35,7 +35,7 @@ const Button: React.FC<ButtonProps> = ({
 
     const Element = href ? (externalLink ? 'a' : Link) : Fragment;
 
-    const [loading, setLoading] = useState(defaultState);
+    const [loading] = useState(defaultState);
     const [disabled, setDisabled] = useState(defaultDisabledState);
 
     useEffect(() => {

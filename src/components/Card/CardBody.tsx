@@ -1,4 +1,4 @@
-import React, { PropsWithChildren } from 'react';
+import React from 'react';
 import { ScrollPanel } from 'primereact/scrollpanel';
 import { showIf } from '@assets/fn';
 import Container from './Container';
