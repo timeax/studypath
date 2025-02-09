@@ -1,0 +1,17 @@
+@use 'sass:math';
+
+@function prime($name) {
+    @return "[data-pc-section=" $name + "]";
+}
+
+@function prime-name($name) {
+    @return "[data-pc-name=" $name + "]";
+}
+
+@function attr($name) {
+    @return "[data-section=" $name + "]";
+}
+
+@function ft($size) {
+    @return math.div($size, 16px) + em;
+}

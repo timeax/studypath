@@ -1,0 +1,24 @@
+$font-normal: ft(14px);
+$font-text: ft(18px);
+$font-banner: ft(54px);
+$font-title: ft(48px);
+$font-heading: ft(24px);
+$font-heading-small: ft(20px);
+$font-16: ft(16px);
+
+$contain-px: ft(64px);
+
+@mixin border-gradient($size: 1px) {
+   border: $size solid $color-primary-600;
+   // border-image-source: linear-gradient(
+   //     90deg,
+   //     rgba(141, 84, 252, 0.87) 0%,
+   //     rgba(73, 13, 71, 0.87) 100%
+   // );
+}
+
+$sidebar-width: ft(257px);
+$header-height: ft(80px);
+
+$font-main: "Montserrat", serif;
+$font-text: "Nunito Sans", serif;

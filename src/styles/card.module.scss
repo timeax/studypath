@@ -1,0 +1,26 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: ft(8px);
+    overflow: hidden;
+}
+
+.gradient {
+    background: linear-gradient(
+        360deg,
+        rgba(246, 246, 248, 0.22) 0%,
+        #f6f6f8 100%
+    );
+}
+
+.contained {
+    background: $color-theme-bgContent;
+}
+
+.container {
+    padding: ft(16px);
+}
+
+.filled {
+    border-radius: ft(12px);
+}

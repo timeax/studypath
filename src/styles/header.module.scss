@@ -1,0 +1,21 @@
+.main {
+   display: block;
+   @include py(ft(32px));
+}
+
+.title {
+   font-family: $font-main;
+   font-size: ft(32px) !important;
+   font-weight: 700;
+   letter-spacing: -2.5px;
+}
+
+.social {
+   font-size: $font-text;
+}
+
+.footer {
+   background-color: $color-primary-900;
+   color: white;
+   @include py(70px);
+}

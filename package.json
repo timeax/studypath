@@ -1,0 +1,72 @@
+{
+  "name": "studypath",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.5",
+    "number-precision": "^1.6.0",
+    "primereact": "^10.9.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.4.0",
+    "react-router": "^7.1.5",
+    "styled-components": "^6.1.15"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "@types/node": "^22.13.1",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.19.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.18",
+    "globals": "^15.14.0",
+    "postcss": "^8.5.1",
+    "sass": "^1.84.0",
+    "tailwindcss": "^4.0.5",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.22.0",
+    "vite": "^6.1.0"
+  },
+  "dweb": {
+    "watch": true,
+    "colors": {
+      "tailwind": true,
+      "scss": "./src/styles/utils/_colors.scss",
+      "source": "./src/styles/helper/colors.scss",
+      "cssRoots": "./src/index.css",
+      "figma": false
+    },
+    "mediaQuery": {
+      "breakpoints": {
+        "_3in": "320px",
+        "_3-6in": "360px",
+        "_3-7in": "376px",
+        "_4in": "427px",
+        "_5-7in": "576px",
+        "_5in": "500px",
+        "_7in": "720px",
+        "_7-6in": "768px",
+        "_8in": "800px",
+        "_9in": "920px",
+        "_9-9in": "992px",
+        "_10in": "1024px",
+        "_10-2in": "1280px",
+        "_15in": "1536px",
+        "_13in": "1366px",
+        "_19in": "1920px"
+      },
+      "tailwind": "./tailwind/breakpoints.js",
+      "outDir": "./src/styles/mixins/_query.scss"
+    }
+  }
+}
