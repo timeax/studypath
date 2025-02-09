@@ -100,7 +100,7 @@ export function classList(...names: Array<string | none>) {
     return names.filter(item => item).join(' ');
 }
 
-export function colorVar(name: ColorType, weight: any = '') {
+export function colorVar(name: ColorType, _weight: any = '') {
     return `var(--color-${name})`;
 }
 
