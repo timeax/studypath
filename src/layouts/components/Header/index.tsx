@@ -2,7 +2,7 @@ import React from 'react';
 import { Base } from '../../../routes';
 import Text from '@components/Text';
 import Container from '@components/Container/Container';
-// import logo from '@assets/img/logo.png'
+import logo from '@assets/img/logo.png'
 import styles from '@styles/header.module.scss';
 import Button from '@components/Button';
 import Nav from './Nav';
@@ -14,7 +14,7 @@ const Header: React.FC<HeaderProps> = ({ routes }) => {
       <header className={styles.main}>
          <Container>
             <div className="flex items-center justify-between">
-               <Text className={styles.title}>Univer</Text>
+               <Text icon={logo} iconProps={{ size: 80 }} className={styles.title}></Text>
                <Nav routes={routes} />
 
                <div>
